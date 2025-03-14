@@ -1,4 +1,21 @@
-# Dictionary Exercises
+# Session 06: Dictionary & File Reading Exercises
+
+These exercises are for you to use as practice.
+
+Make mistakes, correct them and enjoy the success as you complete each one.
+
+If you are stuck, then ask for assistance from your lecturer, or from the
+lecturer who is holding a Workshop Lab.
+
+
+## Text files and other assets
+
+The text files and other assets (for example, images) are saved in an 
+`assets` folder within this session's folder.
+
+Sometimes files will be linked to from previous session folders to reduce 
+duplication and errors from said duplication. 
+
 
 ## Filename: exercise-01.py
 
@@ -11,7 +28,7 @@ dictionary_2 = {3: 30, 4: 40}
 dictionary_3 = {5: 50, 6: 60}
 ```
 
-Expected Result :
+Expected Result:
 
 ```text
 {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
@@ -169,7 +186,7 @@ print(clean_sentence)
 Create a new Python script, and add the code below:
 
 ```python
-file = open("quick.txt", "r")
+file = open("assets/quick.txt", "r")
 quicktext = file.read()
 print(quicktext)
 ```
@@ -197,17 +214,17 @@ Now run your `exercise-06.py` script.
 
 You should see the file's content.
 
-
 ## Filename: exercise-07.py
 
-Use the following link to download the [romeojuliet.txt](romeojuliet.txt) file.
+Use the following link to download the [romeojuliet.txt](assets/romeojuliet.txt)
+file.
 
 Create a new Python script and call it `exercise-07.py`.
 
 Copy the code from `exercise-06.py` and paste into the new file.
 
 Modify the code to open, read and display the contents of
-the [romeojuliet.txt](romeojuliet.txt) file.
+the [romeojuliet.txt](assets/romeojuliet.txt) file.
 
 The output should look like this:
 
@@ -223,7 +240,11 @@ Good night, good night! parting is such sweet sorrow, That I shall say good nigh
 Now is the winter of our discontent.
 ```
 
-> Note: Exercise 6 & 7 are based on the resources from
-> [ncce.io/tcc](ncce.io/tcc). They are licensed under the Open Government
-> Licence, version 3. For more information on this licence, see ncce.io/ogl.
+# Acknowledgement
 
+Some of these exercises are based on the resources from
+[ncce.io/tcc](ncce.io/tcc). They are licensed under the Open Government
+Licence, version 3. For more information on this licence,
+see [ncce.io/ogl](ncce.io/ogl).
+
+More exercises will be available in [Session-07](../Session-07).
