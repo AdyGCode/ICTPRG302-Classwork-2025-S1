@@ -97,4 +97,29 @@ sequence.
 - Badges by https://shields.io/badges
 
 
+## Useful Notes
 
+Install and use:
+- Microsoft Terminal
+- Bash (From Laragon)
+
+To create a set of folders quickly in BASH use {OPTION_LIST}. For example
+to create the Session folders we can use:
+
+```shell
+mkdir Session-{{0,1}{0,1,2,3,4,5,6,7,8,9},20}
+```
+
+To add a `.gitignore` to the above folders use:
+
+```shell
+touch Session-{{0,1}{0,1,2,3,4,5,6,7,8,9},20}/.gitignore
+```
+
+Example with folders and subfolders:
+
+```shell
+mkdir -p {public,assets/{css,js,img,webfonts,downloads,video}}
+touch {public,assets/{css,js,img,webfonts,downloads,video}}/.gitignore
+
+```
