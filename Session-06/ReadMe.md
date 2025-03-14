@@ -101,3 +101,14 @@ Sample sentences:
 - She sells seashells by the sea shore. The shells she sells are surely 
   seashells. So if she sells shells on the seashore, I'm sure she sells 
   seashore shells.
+
+### Hint:
+You could use the following to remove any numbers and punctuation from the 
+sentence before splitting it into words:
+
+```python
+clean_sentence = ""
+for character in the_sentence:
+  if character.isalpha() or character == " ":
+    clean_sentence += character
+```
