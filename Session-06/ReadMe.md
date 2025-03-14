@@ -88,10 +88,15 @@ The output should be similar to this:
 
 ```text
 Word Count
-The 2
+The 1
 quick 1
 brown 1
 fox 1
+jumps 1
+over 1
+the 1
+lazy 1
+dog. 1
 ```
 
 > **Words that have punctuation in or around them will be counted separately.**
@@ -115,6 +120,21 @@ all counted as the same word.
 
 > **This version will remove all punctuation, so words such as `I'm` and 
 > `it's` will be seen as `im` and `its` for the purpose of this exercise.
+
+
+The output should be similar to this:
+
+```text
+Word Count
+the 2
+quick 1
+brown 1
+fox 1
+jumps 1
+over 1
+lazy 1
+dog 1
+```
 
 ### Hint:
 
