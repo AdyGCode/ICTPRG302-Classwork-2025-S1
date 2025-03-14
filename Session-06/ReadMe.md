@@ -1,6 +1,6 @@
 # Dictionary Exercises
 
-## filename: exercise-01.py
+## Filename: exercise-01.py
 
 Write a Python script to concatenate the following
 dictionaries to create a new one.
@@ -17,7 +17,7 @@ Expected Result :
 {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 ```
 
-## filename: exercise-02.py
+## Filename: exercise-02.py
 
 Write a Python script that:
 
@@ -35,7 +35,7 @@ value_dictionary = {
 } 
 ```
 
-## filename: exercise-03.py
+## Filename: exercise-03.py
 
 Write a Python script that calculates the total of the values from a dictionary.
 
@@ -59,7 +59,7 @@ The program should output the result in the form:
 Total Rainfall: 45 mm
 ```
 
-## filename: exercise-04.py
+## Filename: exercise-04.py
 
 Write a Python script that asks the user for a sentence, and then counts the
 words in the sentence, and displays the results to the user.
@@ -110,15 +110,14 @@ Sample sentences:
   seashells. So if she sells shells on the seashore, I'm sure she sells
   seashore shells.
 
-
-## filename: exercise-05.py
+## Filename: exercise-05.py
 
 Copy the code from exercise 4.
 
 Make the program convert the words to lower case so `The`, `THE` and `the` are
 all counted as the same word.
 
-> **This version will remove all punctuation, so words such as `I'm` and 
+> **This version will remove all punctuation, so words such as `I'm` and
 > `it's` will be seen as `im` and `its` for the purpose of this exercise.
 
 
@@ -164,3 +163,67 @@ for character in the_sentence:
 print(the_sentence)
 print(clean_sentence)    
 ```
+
+## Filename: exercise-06.py
+
+Create a new Python script, and add the code below:
+
+```python
+file = open("quick.txt", "r")
+quicktext = file.read()
+print(quicktext)
+```
+
+If you have not done so already, create a file called `quick.txt` (In
+PyCharm: Point to the folder to add the file, Right Mouse Click, Hover over
+New, then click on File. Type in `quick.txt`).
+
+Add the following text:
+
+```text
+The
+quick
+brown
+fox
+jumped
+over
+the lazy
+dog
+```
+
+Save the file using <kbd>CTRL</kbd>+<kbd>S</kbd>.
+
+Now run your `exercise-06.py` script.
+
+You should see the file's content.
+
+
+## Filename: exercise-07.py
+
+Use the following link to download the [romeojuliet.txt](romeojuliet.txt) file.
+
+Create a new Python script and call it `exercise-07.py`.
+
+Copy the code from `exercise-06.py` and paste into the new file.
+
+Modify the code to open, read and display the contents of
+the [romeojuliet.txt](romeojuliet.txt) file.
+
+The output should look like this:
+
+```text
+All that glitters is not gold
+Fair is foul, and foul is fair: Hover through the fog and filthy air.
+These violent delights have violent ends...
+By the pricking of my thumbs, Something wicked this way comes. Open, locks, Whoever knocks!
+Hell is empty and all the devils are here.
+Brevity is the soul of wit.
+If music be the food of love, play on.
+Good night, good night! parting is such sweet sorrow, That I shall say good night till it be morrow.
+Now is the winter of our discontent.
+```
+
+> Note: Exercise 6 & 7 are based on the resources from
+> [ncce.io/tcc](ncce.io/tcc). They are licensed under the Open Government
+> Licence, version 3. For more information on this licence, see ncce.io/ogl.
+
