@@ -29,7 +29,7 @@ value_dictionary = {
 } 
 ```
 
-## filename: exercice-03.py
+## filename: exercise-03.py
 
 Write a Python script that calculates the total of the values from a dictionary.
 
@@ -52,3 +52,5 @@ The program should output the result in the form:
 ```text
 Total Rainfall: 45 mm
 ```
+
+
