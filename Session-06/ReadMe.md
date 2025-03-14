@@ -10,7 +10,12 @@ dictionary_1 = {1:10, 2:20}
 dictionary_2 = {3:30, 4:40}
 dictionary_3 = {5:50, 6:60}
 ```
-Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+
+Expected Result :
+
+```text
+{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+```
 
 ## filename: exercise-02.py
 
@@ -54,3 +59,45 @@ Total Rainfall: 45 mm
 ```
 
 
+## filename: exercise-04.py
+
+Write a Python script that asks the user for a sentence, and then counts the 
+words in the sentence, and displays the results to the user. 
+
+We are providing you with the pseudocode to help.
+
+```python
+# Ask user for sentence
+sentence = input('Enter a sentence (without punctuation): ')
+
+# Create an empty dictionary called word_counts
+
+# Split the sentence into words
+
+# For each word in the sentence:
+#   If word is in the word_counts dictionary:
+#       Increment the count for the word
+#   Else:
+#       Make the count for the word 1
+#
+# For each word in the word_count dictionary:
+#   Display word, count
+```
+The output should be similar to this:
+
+```text
+Word Count
+The 2
+quick 1
+brown 1
+fox 1
+```
+
+Sample sentences:
+
+- The quick brown fox jumps over the lazy dog who was watching the tabby cat
+- Mary had a little lamb, it's fleece as white as snow, and everywhere that 
+  mary went the lamb was sure to go
+- She sells seashells by the sea shore. The shells she sells are surely 
+  seashells. So if she sells shells on the seashore, I'm sure she sells 
+  seashore shells.
