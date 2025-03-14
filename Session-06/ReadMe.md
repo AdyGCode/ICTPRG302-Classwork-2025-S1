@@ -94,6 +94,8 @@ brown 1
 fox 1
 ```
 
+> **Words that have punctuation in or around them will be counted separately.**
+
 Sample sentences:
 
 - The quick brown fox jumps over the lazy dog who was watching the tabby cat
@@ -110,6 +112,9 @@ Copy the code from exercise 4.
 
 Make the program convert the words to lower case so `The`, `THE` and `the` are
 all counted as the same word.
+
+> **This version will remove all punctuation, so words such as `I'm` and 
+> `it's` will be seen as `im` and `its` for the purpose of this exercise.
 
 ### Hint:
 
