@@ -103,12 +103,28 @@ Sample sentences:
   seashore shells.
 
 ### Hint:
-You could use the following to remove any numbers and punctuation from the 
-sentence before splitting it into words:
+You could use some of the following example code to remove any numbers and 
+punctuation from the sentence before splitting it into words.
+
+The code uses a predefined sentence and does the following:
+- converts the sentence to lower case
+- creates an empty clean sentence string
+- loops though each character in the sentence:
+  - if the characters is in teh alphabet or is a space then
+    - join the character to the clean sentence
+- print out the original sentence
+- print out the clean sentence
 
 ```python
+the_sentence = "The Quick Brown Fox. It was asleep on the bed."
+the_sentence = the_sentence.lower()
+
 clean_sentence = ""
+
 for character in the_sentence:
   if character.isalpha() or character == " ":
     clean_sentence += character
+
+print(the_sentence)
+print(clean_sentence)    
 ```
