@@ -99,7 +99,24 @@ Test your code and check it works as expected.
 
 ## Filename: exercise-03.py
 
+You are to read all the lines from the `mbox-short.txt` file
+and print only those that start with "From".
+
+Use this link to download the [`mbox-short.txt`](./assets/mbox-short.txt) file.
+
+Use the following pseudocode to help you write the code:
+
+```text
+Open the File
+Read the file line by line
+    If line starts with "From" then
+        Print the line without the newline (\n)
+Close the file
+```
+
 ## Filename: exercise-04.py
+
+
 
 ## Filename: exercise-05.py
 
