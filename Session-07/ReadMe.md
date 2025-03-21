@@ -29,18 +29,18 @@ Imports the datetime function, creates an identifier for the current time, creat
 
 ```python
 import datetime
-currenttime = datetime.datetime.now()
-timestamp = currenttime.strftime("%d-%m-%Y %H:%M:%S")
+current_time = datetime.datetime.now()
+timestamp = current_time.strftime("%d-%m-%Y %H:%M:%S")
 ```
 
 ## Filename: exercise-01.py
 
-> This challenge is to append a timestamped score to an existign file.
+> This challenge is to append a timestamped score to an existing file.
 >
-> Before starting this challenge, make sure that you have the scores.txt file 
+> Before starting this challenge, make sure that you have the `scores.txt` file 
 > which can be found here: 
 > 
-> [scores.txt](../Session-06/assets/scores.txt)
+> [scores.txt](../Session-07/assets/scores.txt)
 
 Use the code snippets above to create a program that performs the following:
 
@@ -69,25 +69,30 @@ Test your code and make sure it works as expected.
 
 ## Filename: exercise-02.py
 
- Challenge 2 .Count letters in a text
-
-Before starting this challenge, make sure that you have the romeojuliet.txt file which can be found here: 
-
-NOTE TO TEACHER — ADD THE LINK TO THE FILE HERE
+> This challenge uses dictionaries and files to count letters in a text file.
+>
+> Before starting this challenge, make sure that you have the
+> `romeo-juliet.txt` file which can be found here: 
+>
+> [romeo-juliet.txt](../Session-07/assets/romeo-juliet.txt)
 
 Use the code snippets above to create a program that performs the following:
-●	Reads the contents of the romeojuliet.txt file
-●	Searches for all occurrences of the lower case letter ‘a’
-●	Appends the text file with a message at the bottom in the following format:
 
+- Reads the contents of the `romeo-juliet.txt` file
+- Searches for all occurrences of the lower case letter `a`
+- Appends the text file with a message at the bottom in the following format:
+
+```text
 Letter: a 
 Occurrences: 33
+```
 
-Tip: You will need to read the file, then append the file in separate steps.
+> **Tip:** You will need to read the file, then append the file in separate 
+> steps.
 
-Example text file data
+Example text file data:
 
-![Romeo and Juliet](assets/romeo-juliet-sample.png)
+![Romeo and Juliet](../Session-07/assets/romeo-juliet-sample.png)
 
 Test your code and check it works as expected.
 
