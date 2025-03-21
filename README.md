@@ -26,9 +26,20 @@ associated data. This **must** include a link to this repository.
 Our developers encourage students studying this unit/cluster to contribute to
 this project by submitting issues and issue resolutions (via pull requests).
 
+## Useful Links
+
+| Reference                                                                                                                                                                                     | Notes                                                                   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| https://www.diigo.com. (2025). Diigo.com. https://www.diigo.com/profile/ady_gould                                                                                                             | Adrian Gould's Diigo account. Good starting place for useful resources. |
+| Trinket. (2021). Trinket.io. https://books.trinket.io/pfe/index.html                                                                                                                          |                                                                         |
+| Mertz, J. (2019, February 20). Reading and Writing Files in Python (Guide). Realpython.com; Real Python. https://realpython.com/read-write-files-python/#opening-and-closing-a-file-in-python |                                                                         |
+| Easy, P. M. (2022). Python Made Easy. O’Reilly Online Learning. https://learning.oreilly.com/library/view/python-made-easy/9781836646150/                                                     |                                                                         |
+| Learning Python, 6th Edition. (2025). Learning Python, 6th Edition. O’Reilly Online Learning. https://learning.oreilly.com/library/view/learning-python-6th/9781098171292/                    |                                                                         |
+| Practical Python: Learn Python Basics Step by Step - Python 3. (2022). Oreilly.com. https://learning.oreilly.com/course/practical-python-learn/9781803246680/                                 |                                                                         |
+
 ## Glossary
 
-| Term   | Mean ing                                                            |
+| Term   | Meaning                                                             |
 |--------|---------------------------------------------------------------------|
 | C3IT   | ICT30120 Certificate IV in Information Technology (Cybersecurity)   |
 | C4IT   | ICT40120 Certificate IV in Information Technology                   |
@@ -39,7 +50,7 @@ this project by submitting issues and issue resolutions (via pull requests).
 | C4CS   | ICT40120 Certificate IV in Information Technology (Cybersecurity)   |
 | NMTAFE | North Metropolitan TAFE                                             |
 | TODO   | An item that needs filling out                                      |
-|        |                                                                     |
+| TAFE   |                                                                     |
 |        |                                                                     |
 |        |                                                                     |
 
@@ -64,14 +75,16 @@ The version control system, git, is listed here as ICTPRG302 is taught
 before and simultaneously as other units that cover version control and
 object-oriented programming.
 
-### Microsoft Terminal 
+### Microsoft Terminal
+
 The MS Terminal is used as it provides a very robust tabbed interface that is
 customisable and allows for adding additional 'shells' such as the
 version of the Bash shell that is part of the git installation within Laragon.
 
-### Laragon 
-**†** Our version of Laragon provides the following tools/services (and 
-others) for use across the complete Certificate IV in Information 
+### Laragon
+
+**†** Our version of Laragon provides the following tools/services (and
+others) for use across the complete Certificate IV in Information
 Technology (Programming) and Diploma of Information Technology Courses:
 
 - MySQL / MariaDB
@@ -86,20 +99,18 @@ Technology (Programming) and Diploma of Information Technology Courses:
 
 TODO: What does this repository contain
 
-
 ### How to download the repository
 
 TODO:
-
 
 ### How to fork & clone the repository
 
 TODO:
 
-
 ### How to be a contributor
 
 TODO:
+
 - How to clone the repo
 - How to add new files to the repo
 - How to commit the new files
@@ -108,17 +119,10 @@ TODO:
 ### How to create your own virtual python installation
 
 TODO:
+
 - How to add Python .venv
 - How to activate the environment
 - How PyCharm uses the virtual environment
-
-## Useful Links
-
-- Adrian Gould's Diigo account, 
-  [https://diigo.com/profile/Ady_Gould](https://diigo.com/profile/Ady_Gould), is a
-  good starter for useful resources.
-- ...
-
 
 ## Badges
 
@@ -135,10 +139,10 @@ TODO:
 - Icons by https://simpleicons.org
 - Badges by https://shields.io/badges
 
-
 ## Useful Notes
 
 Install and use:
+
 - Microsoft Terminal
 - Bash (From Laragon)
 
