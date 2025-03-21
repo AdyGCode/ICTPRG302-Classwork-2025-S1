@@ -17,6 +17,55 @@ Sometimes files will be linked to from previous session folders to reduce
 duplication and errors from said duplication. 
 
 
+
+## Useful Code Snippets
+
+### Single Line Read
+Opens the `quick.txt` file and reads a single line.
+
+```python
+file = open("quick.txt","r")
+line_from_file = file.readline()
+file.close()
+```
+
+
+### Read All Lines One by One
+
+Iterate over the lines in the `quick.txt` file:
+
+```python
+file = open("quick.txt","r")
+for line_from_file in file:
+    print(line_from_file)  
+file.close()
+```
+
+### Read All Lines One by One, Removing Whitespace
+
+Iterate over the lines in the `quick.txt` file,
+and remove all whitespace (Newlines, Tabs, Spaces etc) 
+from both ends of the line.
+
+```python
+file = open("quick.txt","r")
+for line_from_file in file:
+    print(line_from_file.strip())  
+file.close()
+```
+
+### Read All Lines at once
+
+Read all the lines in the  `quick.txt` file at once 
+placing them into a list.
+
+```python
+file = open("quick.txt","r")
+list_of_lines_from_file = file.readlines()  
+file.close()
+```
+
+
 ## Filename: exercise-01.py
 
 Write a Python script to concatenate the following
