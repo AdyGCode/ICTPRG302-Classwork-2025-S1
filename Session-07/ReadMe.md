@@ -116,13 +116,48 @@ Close the file
 
 ## Filename: exercise-04.py
 
+> This exercise asks you to append the found lines to a List.
+> 
+> The list is then displayed using the print function.
 
+Copy the previous solution (`exercise-03.py`) and rename the file as above 
+(`exercise-04.py`).
+
+Modify your code to add the found lines to a list.
+
+Print the list using `print(list_name)`.
 
 ## Filename: exercise-05.py
 
+> This exercise asks you to check if the current "From" line
+> is contained in the List, and add it if it is not found.
+> 
+> The list is then displayed using the print function.
+
+Copy the previous solution (`exercise-04.py`) and rename the file as above 
+(`exercise-05.py`).
+
+Update the code so that the program checks to see if the "From" line
+that was just found is NOT in the list.
+
+If the line is NOT in the list then it is added to the end of the list.
+
+Print the list using `print(list_name)`.
+
+
 ## Filename: exercise-06.py
 
+Last step in the `exercise-03.py` to `exercise-06.py` is to:
 
+- use a for loop to display only the first 50 characters 
+  of the "from" lines instead of printing the list.
+
+For example:
+
+```text
+From stephen.marquard@uct.ac.za Sat Jan  5 09:14:
+From: stephen.marquard@uct.ac.za    
+```
 
 # Acknowledgement
 
