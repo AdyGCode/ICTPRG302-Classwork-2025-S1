@@ -1,0 +1,4 @@
+"Trump school for Bankers",25
+"Stephenson's school for engineers",12
+"Javier's School for Cops and Robbers",5
+"Isaac Newton School for Geniuses",4
