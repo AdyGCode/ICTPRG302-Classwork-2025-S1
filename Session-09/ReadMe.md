@@ -1,21 +1,19 @@
 # Working with Version Control
 
 If you want a base to work with for a project in ICTPRG302, or any other 
-Python based programming cluster, then you may use 
-these instructions.
+Python based programming cluster, then you may use these instructions.
 
 ## Setting Up
 
-Create a `Source/Repos` folder and clone the project:
+Create a `Source/Repos` folder, change into the `Source/Repos` folder.
 
 ```shell
 cd ~
 mkdir -p Source/Repos
 cd Source/Repos
-git clone https://github.com/AdyGCode/AJG-ICTPRG302-Project-2025-s1.git
 ```
 
-> **🛑 Important:** 
+> ### 🛑 Important: 
 > 
 > When working in Room 3-06 at TAFE, we need to use:
 > 
@@ -23,24 +21,33 @@ git clone https://github.com/AdyGCode/AJG-ICTPRG302-Project-2025-s1.git
 > cd /c/Users/YOUR_USER_NAME
 > mkdir -p Source/Repos
 > cd Source/Repos
-> git clone https://github.com/AdyGCode/AJG-ICTPRG302-Project-2025-s1.git
 > ```
 > 
 > Remember to replace YOUR_USER_NAME with the username you logged into the 
 > PC with.
 
 
+### Clone the Base Repo
+
+Clone the Base Project Repository, replacing the `XXX` with **YOUR** initials.
+
+```shell
+git clone https://github.com/AdyGCode/AJG-ICTPRG302-Project-2025-s1.git XXX-ICTPRG302-Project-2025-s1
+```
+
+### Move into the Repo, and Activate Python Virtual Environment
+
 Change into the new folder, add & activate Python virtual environment:
 
 ```shell
-cd AJG-ICTPRG302-Project-2025-s1
+cd XXX-ICTPRG302-Project-2025-s1
 python -m venv .venv
 source .venv/Scripts/activate
 ```
 
 > ### Note:
-> Mac and Linus users will need to use `source .venv/bin/activate` instead 
-> of the `Scripts` version for the PC.
+> Mac and Linux users will need to use `source .venv/bin/activate` instead 
+> of `source .venv/Scripts/activate` for Windows users.
 
 ## Running the Application
 
