@@ -1,3 +1,6 @@
+# For details / explanation see:
+#       https://realpython.com/sort-python-dictionary/
+
 lines = [
     "25, Trump school for Bankers",
     "12, Stephenson's school for engineers",
